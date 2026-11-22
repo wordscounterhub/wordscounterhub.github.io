@@ -10,12 +10,12 @@
 <meta name="description" content="Free online word counter: count words, characters, sentences, paragraphs and unique words instantly. See keyword density, average word length, reading time and speaking time. No sign-up — your text never leaves your browser." />
 <meta name="keywords" content="word counter, character counter, count words online, reading time calculator, keyword density checker, sentence counter, word count tool" />
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="https://wordscounterhub.github.io/" />
+<link rel="canonical" href="https://wordcounterhub.github.io/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="WordCounterHub" />
 <meta property="og:title" content="Word Counter — Count Words, Characters & Reading Time Online" />
 <meta property="og:description" content="Count words, characters, sentences and paragraphs as you type. Keyword density, reading time and speaking time included — free, instant, private." />
-<meta property="og:url" content="https://wordscounterhub.github.io/" />
+<meta property="og:url" content="https://wordcounterhub.github.io/" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Word Counter — Count Words, Characters & Reading Time Online" />
 <meta name="twitter:description" content="Free online word counter with character count, keyword density, reading time and speaking time. Works instantly in your browser." />
@@ -24,7 +24,7 @@
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "WordCounterHub",
-  "url": "https://wordscounterhub.github.io/",
+  "url": "https://wordcounterhub.github.io/",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Any",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
@@ -246,6 +246,12 @@
   }
   .callout p{margin:0;color:var(--ink)}
   .article a{font-weight:600}
+  .article-list{list-style:none;margin:0;padding:0}
+  .article-list li{padding:13px 0;border-bottom:1px solid var(--line)}
+  .article-list li:last-child{border-bottom:0}
+  .article-list a{font-family:"Archivo",sans-serif;font-weight:700;font-size:1.07rem;text-decoration:none}
+  .article-list a:hover{text-decoration:underline}
+  .article-list p{margin:4px 0 0}
 
   /* FAQ */
   .faq-list{max-width:760px}
@@ -324,6 +330,7 @@
       <a href="#/home" data-nav="home">Word Counter</a>
       <a href="#/guide" data-nav="guide">Guide</a>
       <a href="#/tips" data-nav="tips">Word Count Tips</a>
+      <a href="#/articles" data-nav="articles">Articles</a>
       <a href="#/faq" data-nav="faq">FAQ</a>
       <a href="#/about" data-nav="about">About</a>
       <a href="#/contact" data-nav="contact">Contact</a>
@@ -427,7 +434,7 @@
       <p>Word counts quietly govern a lot of writing. Essays come with limits, job applications ask for statements of a set length, social platforms cap every post, and search engines favour pages that cover a topic in real depth. Knowing your count — and your reading time — helps you hit the target instead of guessing.</p>
       <p>This counter goes beyond a single number. The <strong>unique word</strong> count shows how varied your vocabulary is, <strong>keyword density</strong> reveals which words dominate your draft (and whether you are repeating yourself), and the <strong>longest and shortest sentence</strong> readouts make it easy to spot run-on sentences or choppy passages that need smoothing out.</p>
       <h2>How the counts are calculated</h2>
-      <p>A word is any run of letters or numbers separated by spaces or punctuation; hyphenated words and contractions count as one word each. Reading time assumes an average adult reading speed of <strong>200 words per minute</strong>, and speaking time assumes <strong>130 words per minute</strong>, a comfortable pace for presentations and narration. For a deeper explanation, read our guide on <a href="#/guide">how to count words accurately</a>, or check the typical limits for essays and social posts in our <a href="#/tips">word count tips</a>.</p>
+      <p>A word is any run of letters or numbers separated by spaces or punctuation; hyphenated words and contractions count as one word each. Reading time assumes an average adult reading speed of <strong>200 words per minute</strong>, and speaking time assumes <strong>130 words per minute</strong>, a comfortable pace for presentations and narration. For a deeper explanation, read our guide on <a href="#/guide">how to count words accurately</a>, or check the typical limits for essays and social posts in our <a href="#/tips">word count tips</a>. You can also browse the full library of writing guides — on essay lengths, speeches, novels, resumes and more — in our <a href="#/articles">articles section</a>.</p>
     </div>
   </section>
 
@@ -451,7 +458,7 @@
       <ul>
         <li><strong>Hyphens and dashes.</strong> A tool that splits on hyphens turns "mother-in-law" into three words instead of one.</li>
         <li><strong>Text in headers, footers and text boxes.</strong> Word processors sometimes include or exclude these depending on settings.</li>
-        <li><strong>URLs and email addresses.</strong> "wordscounterhub.github.io" may be read as one token or split at the dots.</li>
+        <li><strong>URLs and email addresses.</strong> "wordcounterhub.github.io" may be read as one token or split at the dots.</li>
         <li><strong>Hidden characters.</strong> Text copied from a PDF or web page can carry double spaces, non-breaking spaces and stray line breaks that change how tokens are separated.</li>
       </ul>
       <p>The practical fix: pick one counter, use it consistently for a project, and if a limit really matters — an exam, a submission portal, a grant application — leave yourself a small margin of a few percent under the maximum.</p>
@@ -602,7 +609,7 @@
     </div>
     <div class="contact-card">
       <p>The fastest way to reach the WordCounterHub team is by email. Tell us what you were counting and what looked wrong, and include a short sample of the text if you can — it makes counting bugs much easier to reproduce.</p>
-      <a class="mail-link" href="mailto:contact@wordscounterhub.github.io">contact@wordscounterhub.github.io</a>
+      <a class="mail-link" href="mailto:contact@wordcounterhub.github.io">contact@wordcounterhub.github.io</a>
       <p style="margin-top:14px">Please note: because the counter runs entirely in your browser, we never receive or store the text you count, and we cannot recover text from a closed tab. If your question is about how the tool works, the <a href="#/faq">FAQ page</a> may already have the answer.</p>
     </div>
   </section>
@@ -625,7 +632,7 @@
       <h2>Changes to this policy</h2>
       <p>If this policy changes, the updated version will be posted on this page with a new date. Continued use of the site after a change means you accept the updated policy.</p>
       <h2>Contact</h2>
-      <p>Questions about privacy can be sent to <a href="mailto:contact@wordscounterhub.github.io">contact@wordscounterhub.github.io</a>.</p>
+      <p>Questions about privacy can be sent to <a href="mailto:contact@wordcounterhub.github.io">contact@wordcounterhub.github.io</a>.</p>
     </article>
   </section>
 
@@ -647,7 +654,7 @@
       <h2>Liability</h2>
       <p>To the fullest extent permitted by law, WordCounterHub is not liable for any loss or damage arising from use of, or inability to use, this site or reliance on its counts and guidance.</p>
       <h2>Contact</h2>
-      <p>Questions about these terms can be sent to <a href="mailto:contact@wordscounterhub.github.io">contact@wordscounterhub.github.io</a>.</p>
+      <p>Questions about these terms can be sent to <a href="mailto:contact@wordcounterhub.github.io">contact@wordcounterhub.github.io</a>.</p>
     </article>
   </section>
 
@@ -665,7 +672,574 @@
       <h2>External sites</h2>
       <p>We are not responsible for the content, accuracy or availability of any external website linked from WordCounterHub.</p>
       <h2>Contact</h2>
-      <p>If you spot an error on this site, please tell us at <a href="mailto:contact@wordscounterhub.github.io">contact@wordscounterhub.github.io</a> and we will correct it.</p>
+      <p>If you spot an error on this site, please tell us at <a href="mailto:contact@wordcounterhub.github.io">contact@wordcounterhub.github.io</a> and we will correct it.</p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLES INDEX ================= -->
+  <section class="page" id="page-articles">
+    <article class="article">
+      <h1>Articles</h1>
+      <p class="lede">Practical, plain-language guides about word counts, writing length and the numbers behind good writing — from essay limits and novel lengths to speeches, resumes and social media character caps.</p>
+      <ul class="article-list">
+        <li><a href="#/guide">How to Count Words Accurately</a><p>What counts as a word, why different counters disagree, and how to get a number you can trust.</p></li>
+        <li><a href="#/tips">Word Counts for Essays, Articles and Social Posts</a><p>Typical lengths and limits for the formats writers meet most often, in one reference page.</p></li>
+        <li><a href="#/article/how-many-words-should-an-essay-be">How Many Words Should an Essay Be?</a><p>Sensible lengths for school, university and exam essays — and what to do when you are over or under.</p></li>
+        <li><a href="#/article/ideal-blog-post-length-for-seo">Ideal Blog Post Length for SEO (Honest Guide, No Guarantees)</a><p>Why there is no magic word count for ranking, and how to choose a length that fits your topic and reader.</p></li>
+        <li><a href="#/article/reading-time-and-speaking-time-explained">Reading Time and Speaking Time Explained</a><p>How the estimates are calculated, why they use different speeds, and when to trust a stopwatch instead.</p></li>
+        <li><a href="#/article/how-many-words-in-a-novel">How Many Words Are in a Novel? Word Counts by Genre</a><p>Typical novel lengths from romance to epic fantasy, plus novella and short story ranges.</p></li>
+        <li><a href="#/article/social-media-character-limits">Social Media Character Limits Explained</a><p>How character caps work on the major platforms, and how to write posts that fit without being cut off.</p></li>
+        <li><a href="#/article/how-to-write-faster">How to Write Faster Without Losing Quality</a><p>Practical techniques — outlining, sprints and separate editing — that raise your words per hour.</p></li>
+        <li><a href="#/article/how-to-cut-words">How to Cut Words When You Are Over the Limit</a><p>A step-by-step method for trimming a draft by 10, 20 or 30 percent without losing its meaning.</p></li>
+        <li><a href="#/article/readability-and-reading-level-explained">What Is Readability? Reading Levels and Grade Scores Explained</a><p>What Flesch scores and grade levels actually measure, and how much you should trust them.</p></li>
+        <li><a href="#/article/how-many-words-should-a-resume-be">How Many Words Should a Resume or CV Be?</a><p>How many words fit on one page, when two pages are acceptable, and how to say more with less.</p></li>
+        <li><a href="#/article/word-counts-for-speeches">Word Counts for Speeches and Presentations</a><p>Convert minutes into words for talks, toasts and presentations, and rehearse to the right length.</p></li>
+        <li><a href="#/article/how-to-count-words-in-word-docs-pdf">How to Count Words in Word, Google Docs and PDFs</a><p>Where the count lives in each tool, and what to do when a PDF will not give you one.</p></li>
+        <li><a href="#/article/sentence-length-why-it-matters">Sentence Length: Why It Matters and How to Vary It</a><p>Why a mix of short and long sentences reads better, and how to fix run-ons and choppy passages.</p></li>
+        <li><a href="#/article/product-description-word-count">How Many Words in a Good Product Description?</a><p>Length guidelines by product type, and how to cover benefits and specifications without rambling.</p></li>
+        <li><a href="#/article/college-application-essay-word-count">College Application Essay Word Counts Explained</a><p>The limits behind the main application essays and supplements, and how to plan for them.</p></li>
+        <li><a href="#/article/nanowrimo-daily-writing-goals">NaNoWriMo and Daily Writing Goals</a><p>The maths behind 50,000 words in a month, and how to build a daily target you can actually hit.</p></li>
+        <li><a href="#/article/how-translators-charge-by-the-word">How Translators Charge by the Word</a><p>Per-word pricing explained: source vs target counts, language pairs, minimum fees and expansion.</p></li>
+        <li><a href="#/article/plain-english-writing-tips">Plain English: Writing Tips for Clarity</a><p>Simple techniques for writing that any reader can understand on the first pass.</p></li>
+        <li><a href="#/article/email-and-cover-letter-length">How Long Should an Email or Cover Letter Be?</a><p>Word counts and paragraph plans for cover letters and everyday business emails.</p></li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: ESSAY LENGTH ================= -->
+  <section class="page" id="page-article-how-many-words-should-an-essay-be">
+    <article class="article">
+      <h1>How Many Words Should an Essay Be?</h1>
+      <p class="lede">There is no single answer, because "essay" covers everything from a one-page school assignment to a final-year university paper. But there are reliable ranges for each level — and a few rules that matter more than the exact number.</p>
+
+      <h2>Start with the limit you were given</h2>
+      <p>If your teacher, university or exam board has set a word count, that figure is the answer. Everything else in this article is for the common situation where you have been given a page count, a vague instruction like "a short essay", or no guidance at all. When a limit is stated, markers usually allow a tolerance of about <strong>ten percent either side</strong>, but that is a custom, not a right — some institutions penalise anything over the maximum, and a few count every word including the bibliography. Check the assignment brief before you rely on the tolerance.</p>
+
+      <h2>Typical essay lengths by level</h2>
+      <table>
+        <tr><th>Level</th><th>Typical length</th><th>What that length allows</th></tr>
+        <tr><td>Middle school</td><td>250–500 words</td><td>An introduction, two or three points, and a short conclusion.</td></tr>
+        <tr><td>High school</td><td>500–1,000 words</td><td>The classic five-paragraph essay, with room for evidence in each section.</td></tr>
+        <tr><td>Timed exam essay</td><td>400–800 words</td><td>Whatever a focused writer can produce by hand in 40–60 minutes.</td></tr>
+        <tr><td>University essay</td><td>1,500–3,000 words</td><td>A real argument: sources, counter-arguments and developed analysis.</td></tr>
+        <tr><td>Postgraduate paper</td><td>3,000–6,000 words</td><td>Engagement with published research and an original contribution.</td></tr>
+      </table>
+      <p>These ranges match the ones in our broader <a href="#/tips">word count tips</a> reference, which also covers articles, social posts and resumes. Notice the pattern: each step up roughly doubles the previous length, because each level expects more evidence and more development, not just more sentences.</p>
+
+      <h2>Why the range matters more than the number</h2>
+      <p>An essay's job is to answer a question completely. Too short, and you have probably described the topic instead of analysing it — markers notice missing counter-arguments and unsupported claims far more than they notice a word count. Too long, and the argument usually dilutes: the same point appears twice, quotations are dropped in without comment, and the conclusion repeats the introduction. If you find yourself far outside the typical range for your level, treat it as a diagnostic. Under length usually means the argument needs another layer of evidence. Over length usually means editing, and our guide on <a href="#/article/how-to-cut-words">how to cut words</a> walks through that process step by step.</p>
+
+      <h2>Planning your structure around the count</h2>
+      <p>A useful way to plan is to divide the target before you write. For a 1,500-word essay, a common split is roughly 150 words of introduction, three body sections of about 350–400 words each, and 150 words of conclusion. The introduction and conclusion together rarely need more than a fifth of the total. If you draft in the <a href="#/home">word counter</a> and set the goal tracker to your target, you can watch each section land near its share instead of discovering at the end that the introduction ate half the essay.</p>
+
+      <h2>What usually counts — and what does not</h2>
+      <p>In most institutions the count includes the main text only. Titles, headings, the reference list and appendices are commonly excluded, but practice varies, and some courses count footnotes while others do not. In-text citations almost always count. If the rules are unclear, ask — or count both ways with the counter and submit the version that is safe under either reading. Our guide on <a href="#/guide">how to count words accurately</a> explains why different tools sometimes disagree by a few words, which matters when you are close to a hard limit.</p>
+
+      <h2>The honest bottom line</h2>
+      <p>Write to the limit you were given, aim for the middle of any range you were offered, and remember that a complete, well-organised 900-word essay will outscore a padded 1,500-word one almost every time. Length is a container. What earns marks is what you put inside it.</p>
+      <p><em>More from the library: <a href="#/article/college-application-essay-word-count">college application essay word counts</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: BLOG LENGTH SEO ================= -->
+  <section class="page" id="page-article-ideal-blog-post-length-for-seo">
+    <article class="article">
+      <h1>Ideal Blog Post Length for SEO (Honest Guide, No Guarantees)</h1>
+      <p class="lede">Ask ten SEO writers for the ideal blog post length and you will get ten confident, different answers. The truth is less marketable but more useful: there is no word count that ranks a page. There is only a length that fully answers the reader's question — and this guide explains how to find it.</p>
+
+      <h2>Why the "perfect length" myth survives</h2>
+      <p>Studies of top-ranking pages often report that long articles — 1,500, 2,000, even 2,500 words — appear frequently on the first page of search results. That observation is real, but the conclusion people draw from it is wrong. Long pages tend to rank because they tend to <strong>cover a topic thoroughly</strong>, attract links, and match more variations of a search query. Length is a side effect of thoroughness, not the cause of the ranking. A padded 2,500-word article that says little will lose to a sharp 900-word article that answers the question completely — search engines measure user satisfaction signals, not word counts.</p>
+
+      <h2>Start with search intent, not a number</h2>
+      <p>Before writing, ask what the searcher actually wants. Some queries demand depth: "how does a heat pump work" invites a full explanation. Others demand a single fact: "how many ounces in a cup" should be answered in the first lines, with detail below for those who want it. Writing 2,000 words for a question that needs 200 does not make the page better; it makes it slower to use, and readers who cannot find their answer leave — which is the opposite of what you want. Let the question set the length, then check your draft in the <a href="#/home">word counter</a> to see where you landed.</p>
+
+      <h2>Useful ranges by post type</h2>
+      <p>Ranges are still helpful as a sanity check, as long as you treat them as descriptions of what usually works rather than targets to hit:</p>
+      <ul>
+        <li><strong>News and announcements — 300 to 600 words.</strong> The facts, the context, done.</li>
+        <li><strong>Standard informational posts — 800 to 1,500 words.</strong> One question answered properly, with examples.</li>
+        <li><strong>In-depth guides and tutorials — 1,500 to 3,000 words.</strong> Multi-step topics where the reader needs the whole process.</li>
+        <li><strong>Pillar pages and comparisons — 2,500 words and up.</strong> Broad topics that genuinely branch into subtopics.</li>
+      </ul>
+      <p>Our <a href="#/tips">word count tips</a> page lists similar ranges alongside the essay and social media figures, if you want them in one place.</p>
+
+      <h2>Reading time is the reader's real budget</h2>
+      <p>Readers do not experience your article as a word count; they experience it as time. At an average reading speed of around 200 words per minute, a 1,000-word post is a five-minute commitment and a 3,000-word guide is fifteen minutes. Most visitors decide within seconds whether that commitment looks worth it, which is why structure matters as much as length: clear headings, a first paragraph that confirms they are in the right place, and no throat-clearing. Our article on <a href="#/article/reading-time-and-speaking-time-explained">reading time and speaking time</a> explains how those estimates are worked out.</p>
+
+      <h2>What to do instead of chasing a number</h2>
+      <p>Look at the pages currently ranking for your topic and note what they cover — not how long they are, but which sub-questions they answer. Cover those sub-questions at least as well, add whatever they missed, and stop when the topic is genuinely exhausted. Then edit: cutting the weakest ten percent of a draft almost always improves it, a process we walk through in <a href="#/article/how-to-cut-words">how to cut words when you are over the limit</a>. If your finished piece is 1,100 words, publish it at 1,100 words.</p>
+
+      <h2>The honest bottom line</h2>
+      <p>No tool, study or consultant can promise that a particular length will rank, and you should distrust anyone who does. Write the shortest article that completely answers the question, organise it so readers can skim it, and let thoroughness — not a word-count target — decide when you are finished.</p>
+      <p><em>More from the library: <a href="#/article/product-description-word-count">how many words in a good product description</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: READING & SPEAKING TIME ================= -->
+  <section class="page" id="page-article-reading-time-and-speaking-time-explained">
+    <article class="article">
+      <h1>Reading Time and Speaking Time Explained</h1>
+      <p class="lede">Almost every writing tool now shows a reading time, and many show a speaking time too. Both are simple divisions — word count divided by an average speed — but the averages hide interesting detail about how people actually read and speak.</p>
+
+      <h2>The two magic numbers: 200 and 130</h2>
+      <p>Reading time on this site assumes <strong>200 words per minute</strong>. That figure comes from research on adult silent reading, which typically finds average speeds between roughly 200 and 250 words per minute for non-fiction in a reader's first language. We use the lower end deliberately: it reflects careful reading of new material rather than skimming familiar text, so the estimate rarely over-promises. Speaking time assumes <strong>130 words per minute</strong>, the pace most people naturally settle into when presenting or narrating — fast enough to hold attention, slow enough to be understood and to breathe.</p>
+      <p>Because speaking is slower than reading, the same text always takes longer to say than to read. A 1,000-word article is about five minutes of reading but nearly eight minutes of speaking. That gap surprises many first-time presenters, and it is the single most common reason talks overrun.</p>
+
+      <h2>Why reading speed varies so much</h2>
+      <p>The 200-words-per-minute figure is an average across people and texts, and real reading speeds spread widely around it. Familiar topics read faster than new ones. Dense technical writing with unfamiliar terms can pull a reader down to 100–150 words per minute, while a light story or a page the reader is skimming can pass at 400 or more. Reading on paper tends to be slightly faster and better retained than reading the same text on a screen, and reading in a second language is slower for almost everyone. Treat any reading-time estimate as the centre of a range, not a promise: your actual audience will spread out on both sides of it.</p>
+
+      <h2>Why speaking speed varies too</h2>
+      <p>Presenters speed up when nervous and slow down for emphasis, numbers and new ideas. Audiobook narrators typically work at 150–160 words per minute in a steady, practiced delivery. Conversational speech runs faster still, often 150–190 words per minute, but it is full of pauses, restarts and fillers that a script does not have. Formal occasions — ceremonies, commemorations, anything read aloud from a page — sit at the slow end, sometimes under 120 words per minute. If you are writing a speech, our dedicated guide to <a href="#/article/word-counts-for-speeches">word counts for speeches and presentations</a> converts minutes into word targets for common speaking slots.</p>
+
+      <h2>What reading time is actually for</h2>
+      <p>For readers, a reading-time label is a budgeting tool: "7 min read" lets someone decide whether to read now or save the page for later, and sites display it because that honesty increases the chance the article gets finished. For writers, it is a diagnostic. Paste a draft into the <a href="#/home">word counter</a> and the reading time tells you the commitment you are asking for. If a short announcement shows a nine-minute reading time, something has gone wrong. If a tutorial shows ninety seconds, it probably skips steps the reader needs.</p>
+
+      <h2>When to ignore the formula and use a stopwatch</h2>
+      <p>Estimates are fine for planning, but for anything performed live — a speech, a video script, a podcast segment, a wedding toast — rehearse once with a timer. Your personal pace, your pauses, and the laughter or applause you hope for are all invisible to a formula. Read the script aloud at performance speed, note the time, and adjust the text rather than your delivery: speaking faster to squeeze in extra words always sounds worse than cutting them. Our guide on <a href="#/article/how-to-cut-words">how to cut words</a> can help if the rehearsal runs long.</p>
+
+      <h2>The short version</h2>
+      <p>Reading time is your word count divided by about 200; speaking time is the same count divided by about 130. Use both for planning, sanity-check them against the kind of text you have written, and trust a stopwatch over a formula whenever the performance really matters. For the reasoning behind the counts themselves, see <a href="#/guide">how to count words accurately</a>.</p>
+      <p><em>More from the library: <a href="#/article/word-counts-for-speeches">word counts for speeches and presentations</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: NOVEL WORD COUNTS ================= -->
+  <section class="page" id="page-article-how-many-words-in-a-novel">
+    <article class="article">
+      <h1>How Many Words Are in a Novel? Word Counts by Genre</h1>
+      <p class="lede">Ask how long a novel should be and the publishing answer is "it depends on the genre" — which is true, but unhelpful without numbers. Here are the ranges agents and publishers actually work with, and why they exist.</p>
+
+      <h2>The short answer</h2>
+      <p>Most adult novels fall between <strong>70,000 and 100,000 words</strong>. Below that range a book starts to feel slight for its price and shelf category; above it, printing costs rise and debut authors face extra scepticism from publishers who worry the manuscript needed an editor. A rough rule of thumb for page counts: a standard paperback fits about 250–300 words per page, so 80,000 words is roughly a 300-page book. Track your own manuscript's progress by pasting chapters into the <a href="#/home">word counter</a> as you finish them.</p>
+
+      <h2>Word counts by genre</h2>
+      <table>
+        <tr><th>Genre</th><th>Typical range</th><th>Notes</th></tr>
+        <tr><td>Romance</td><td>50,000–90,000</td><td>Category romance lines sit at the short end; single-title romance runs longer.</td></tr>
+        <tr><td>Mystery and crime</td><td>70,000–90,000</td><td>Pace matters; cosy mysteries often land near 65,000–75,000.</td></tr>
+        <tr><td>Thriller</td><td>80,000–100,000</td><td>Room for twists and subplots while keeping momentum.</td></tr>
+        <tr><td>Literary fiction</td><td>80,000–110,000</td><td>The most flexible category; voice and structure carry more weight than length.</td></tr>
+        <tr><td>Science fiction</td><td>90,000–120,000</td><td>World-building takes space, but debuts over 120,000 are a hard sell.</td></tr>
+        <tr><td>Fantasy</td><td>90,000–120,000</td><td>Epic fantasy can reach 150,000+ for established authors.</td></tr>
+        <tr><td>Young adult</td><td>50,000–80,000</td><td>YA fantasy trends longer, toward 100,000.</td></tr>
+        <tr><td>Middle grade</td><td>25,000–55,000</td><td>Aimed at readers aged roughly 8–12; shorter chapters, faster pace.</td></tr>
+      </table>
+
+      <h2>Shorter and longer forms</h2>
+      <p>Not every long story is a novel. A <strong>novella</strong> runs about 17,500–40,000 words — long enough for a complete arc, short enough to read in an evening. A <strong>novelette</strong> covers roughly 7,500–17,500 words, and a <strong>short story</strong> is anything under about 7,500, with flash fiction under 1,000. These boundaries come from major award categories and are widely used across publishing. None of them is a quality judgement: some of the most respected fiction ever published is novella-length.</p>
+
+      <h2>Why publishers care about length at all</h2>
+      <p>Length is partly economics. Longer books cost more to print, ship and shelve, and readers compare thickness against price on the shelf. It is also partly reader expectation: a fantasy reader picking up a 45,000-word book may feel short-changed, while a 180,000-word debut thriller raises the question of whether the writer can pace a story. Established authors earn exceptions — readers will follow a trusted name to almost any length — which is why famous series often grow longer book by book.</p>
+
+      <h2>What if your draft is the "wrong" length?</h2>
+      <p>First, finish the draft; a complete 130,000-word manuscript is a better starting point than an abandoned 80,000-word plan. Then edit with the range in mind. Over-length drafts usually contain a subplot that can go, scenes that repeat an emotion the reader already has, or a slow opening — see <a href="#/article/how-to-cut-words">how to cut words when you are over the limit</a>. Under-length drafts usually need a complication, not padding: a relationship developed, a consequence explored, a secondary character given a real stake in the outcome. Writers building a draft from scratch can pace themselves with the methods in our article on <a href="#/article/nanowrimo-daily-writing-goals">NaNoWriMo and daily writing goals</a>, and writers revising a finished one should remember that agents judge the opening pages first — a manuscript of the right length with a slow first chapter is in more trouble than a slightly long one that starts at a run.</p>
+
+      <h2>The bottom line</h2>
+      <p>Aim for 70,000–100,000 words for most adult fiction, adjust for your genre using the table above, and remember that the ranges describe what sells comfortably — not what makes a book good. Length gets a manuscript read without prejudice. The story does the rest.</p>
+      <p><em>More from the library: <a href="#/article/how-to-write-faster">how to write faster without losing quality</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: SOCIAL MEDIA LIMITS ================= -->
+  <section class="page" id="page-article-social-media-character-limits">
+    <article class="article">
+      <h1>Social Media Character Limits Explained</h1>
+      <p class="lede">Social platforms ration characters, not words, and every platform counts differently. This guide explains the major limits, the quirks in how they are counted, and how to write posts that never get cut off mid-thought.</p>
+
+      <h2>Why characters, not words?</h2>
+      <p>Character limits come from technical history — the most famous, the original 140-character post, was designed to fit inside a single SMS message. Characters are also a fairer measure across languages: a sentence in German uses more letters than the same sentence in English, and character-based limits treat scripts from Chinese to Arabic by the same unit. The practical consequence for writers is that your word count is the wrong tool for social posts. What you need is the character count — and often the <strong>characters-without-spaces</strong> figure too, both of which the <a href="#/home">word counter</a> shows side by side.</p>
+
+      <h2>The major limits at a glance</h2>
+      <p>These are the widely published maximums. Platforms adjust them occasionally and paid tiers often raise them, so treat this table as a planning guide and trust the composer counter when you post.</p>
+      <table>
+        <tr><th>Platform</th><th>Limit</th><th>Worth knowing</th></tr>
+        <tr><td>X (Twitter)</td><td>280 characters</td><td>Links are counted as a fixed shortened length regardless of the real URL; some scripts count double.</td></tr>
+        <tr><td>Instagram caption</td><td>2,200 characters</td><td>Feeds show only the first line or two before "more" — the opening words do the heavy lifting.</td></tr>
+        <tr><td>LinkedIn post</td><td>3,000 characters</td><td>Feeds truncate around 200–300 characters, so the first lines must earn the click.</td></tr>
+        <tr><td>Facebook post</td><td>Very high (tens of thousands)</td><td>The limit rarely binds; attention does. Short posts read best in the feed.</td></tr>
+        <tr><td>TikTok caption</td><td>2,200 characters</td><td>Captions support the video rather than carry the message; keep them tight.</td></tr>
+        <tr><td>YouTube title</td><td>100 characters</td><td>Around 60 characters avoids truncation in most search and browse displays.</td></tr>
+        <tr><td>Threads post</td><td>500 characters</td><td>Longer than a classic tweet, shorter than a blog paragraph — one idea per post works well.</td></tr>
+      </table>
+      <p>Our <a href="#/tips">word count tips</a> page keeps a similar quick table alongside essay and article lengths.</p>
+
+      <h2>The counting quirks nobody warns you about</h2>
+      <p>Even on one platform, a character is not always a character. On X, most emoji count as two characters, and characters from some scripts count double as well, so a post that looks short can hit the cap early. Links are wrapped and counted at a fixed length — currently in the low twenties — whether the real address is shorter or longer. Hashtags and @mentions count toward the total on most platforms. And a line break is a character too: the airy, one-sentence-per-line style popular on LinkedIn quietly spends dozens of characters on spacing alone.</p>
+
+      <h2>Writing to fit without sounding squeezed</h2>
+      <p>Draft the post at natural length first, then trim. Cut in a fixed order: throat-clearing openings ("I am excited to announce…"), duplicated hashtags, and any sentence that repeats the one before it. Shorten phrases before you shorten ideas — "in order to" becomes "to", "due to the fact that" becomes "because". If the post still does not fit, it is probably two posts: split it into a thread or a series rather than crushing it into abbreviations nobody enjoys reading. Our guide on <a href="#/article/how-to-cut-words">how to cut words</a> covers the same editing moves in depth.</p>
+
+      <h2>Limits are ceilings, not targets</h2>
+      <p>Finally, remember that the maximum is not the optimum. A caption allowance of 2,200 characters does not mean a 2,200-character caption performs better; on most platforms the visible first line decides whether anyone reads the rest. Write the length the message needs, check the count before you post, and spend the characters you save on a stronger opening line.</p>
+      <p><em>More from the library: <a href="#/guide">how to count words accurately</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: WRITE FASTER ================= -->
+  <section class="page" id="page-article-how-to-write-faster">
+    <article class="article">
+      <h1>How to Write Faster Without Losing Quality</h1>
+      <p class="lede">Slow writing is rarely a typing problem. It is a thinking-while-editing problem: most writers draft, judge and rewrite in the same motion, and the constant switching is what eats the hours. These techniques separate the jobs so each one goes faster.</p>
+
+      <h2>Outline first, even badly</h2>
+      <p>Ten minutes with a rough outline saves an hour of mid-draft wandering. The outline does not need to be formal — a list of headings in the order you will cover them, with a note of the point each section must make. When you sit down to draft, the decisions about structure are already made, and the only job left is turning points into sentences. For structured pieces, divide the target length across the sections before you start: knowing a section should be about 300 words stops it quietly becoming 900. The goal tracker on the <a href="#/home">word counter</a> makes this easy to follow as you write.</p>
+
+      <h2>Draft ugly on purpose</h2>
+      <p>The single biggest speed gain comes from banning editing during the first draft. Write the sentence that gets the idea down, even if it is clumsy, and move on. Leave markers where you stall — [CHECK DATE], [BETTER EXAMPLE] — instead of stopping to research or polish. A first draft's job is to exist; quality is the second draft's job. Writers who adopt this split routinely double their drafting speed, because the inner critic, however valuable later, is a terrible writing partner.</p>
+
+      <h2>Work in timed sprints</h2>
+      <p>Set a timer for 25 minutes, write until it rings, take a short break, repeat. Sprints work because they shrink the commitment: almost anyone can write for 25 minutes, and the deadline discourages drifting to email or references. Track your words per sprint in the counter and you will quickly learn your real pace — most people draft somewhere between 300 and 750 words per focused half hour. That number, once you know it, makes planning honest: a 2,000-word article stops being "an afternoon, somehow" and becomes four sprints on the calendar. The same arithmetic powers the daily targets in our piece on <a href="#/article/nanowrimo-daily-writing-goals">NaNoWriMo and daily writing goals</a>.</p>
+
+      <h2>Talk it out</h2>
+      <p>Most people speak at 130–160 words per minute and type at 40–60. Dictation tools can therefore triple raw drafting speed for talkative thinkers, especially for first drafts, explanations and anything conversational. Dictated text needs a firmer edit — spoken sentences ramble — but editing existing words is faster than producing them. If dictation feels unnatural, try explaining the piece aloud to an imaginary reader before writing; many writers find the sentences arrive pre-formed.</p>
+
+      <h2>Build reusable scaffolding</h2>
+      <p>Recurring formats deserve templates: the report structure you write monthly, the product description pattern, the email you send weekly. A template is an outline you only make once. Keep a small file of openings, transitions and closings you have written before and liked; reusing your own phrasing is not cheating, it is consistency. And keep references open before the sprint starts — every mid-sentence fact-check is a small derailment.</p>
+
+      <h2>Edit in passes, not continuously</h2>
+      <p>When the draft is complete, edit in separate passes: one for structure (does each section earn its place?), one for sentences (see <a href="#/article/sentence-length-why-it-matters">sentence length and how to vary it</a>), one for word-level tightening. Each pass is quick because it looks for one thing. If the piece runs long, finish with the trimming method in <a href="#/article/how-to-cut-words">how to cut words when you are over the limit</a>.</p>
+
+      <h2>The bottom line</h2>
+      <p>Speed comes from sequence: decide, then draft, then edit — never all three at once. Measure your pace with the counter for a week and the improvement usually surprises people, because the bottleneck was never their fingers.</p>
+      <p><em>More from the library: <a href="#/article/plain-english-writing-tips">plain English writing tips</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: CUT WORDS ================= -->
+  <section class="page" id="page-article-how-to-cut-words">
+    <article class="article">
+      <h1>How to Cut Words When You Are Over the Limit</h1>
+      <p class="lede">Your draft is 2,300 words and the limit is 2,000. Or the essay fits but the cover letter sprawls. Cutting words without cutting meaning is a learnable skill — and it almost always makes the writing better, not just shorter.</p>
+
+      <h2>Know your real target</h2>
+      <p>Start with the exact gap. Paste the draft into the <a href="#/home">word counter</a>, note the current count, and calculate the percentage you need to lose: 300 words from 2,300 is about 13 percent. That number tells you how aggressive to be. Under 5 percent is a tightening job — word-level edits will get you there. Ten to twenty percent needs paragraph-level decisions. Over 25 percent means structural surgery: a whole section, example or subplot has to go. Choosing the right scale first prevents the miserable experience of polishing sentences for an hour and still being 200 words over.</p>
+
+      <h2>Pass one: cut whole pieces first</h2>
+      <p>Look for the big, painless wins. A repeated point is the most common: writers often make the same argument twice in different words, once in the body and once in the conclusion. Tangents go next — the interesting paragraph that serves the writer's curiosity rather than the reader's question. Then examine your examples: if three examples prove a point, two usually prove it just as well, and the weakest one can leave. Introductions written before the draft often promise things the piece no longer does; rewriting the introduction last, tightly, can save a surprising amount.</p>
+
+      <h2>Pass two: tighten the sentences</h2>
+      <p>Now work line by line with a short list of reliable compressions:</p>
+      <ul>
+        <li><strong>Redundant pairs:</strong> "past history", "end result", "free gift", "join together" — one word already contains the other.</li>
+        <li><strong>Throat-clearing phrases:</strong> "in order to" → "to"; "due to the fact that" → "because"; "it is important to note that" → delete; "in my opinion" → usually delete, the opinion is evident.</li>
+        <li><strong>Weak verb constructions:</strong> "is able to" → "can"; "makes a decision" → "decides"; "conducts an investigation" → "investigates".</li>
+        <li><strong>Unnecessary qualifiers:</strong> "very", "really", "quite", "just" and "actually" rarely change meaning; most can go.</li>
+        <li><strong>Passive to active:</strong> "The report was written by the team" becomes "The team wrote the report" — shorter and clearer. (Keep the passive where the actor genuinely does not matter.)</li>
+      </ul>
+      <p>This pass alone typically removes 8–12 percent of a typical draft. The <a href="#/article/plain-english-writing-tips">plain English tips</a> in our library use the same substitutions, because clarity and brevity are usually the same edit.</p>
+
+      <h2>Pass three: use the numbers</h2>
+      <p>Your tools can find what your eye skips. The counter's keyword density panel shows words you lean on too heavily — a word appearing forty times often hides repeated phrasing. The longest-sentence readout points at sentences that can split or shed clauses. Long sentences are not automatically bad, as our article on <a href="#/article/sentence-length-why-it-matters">sentence length</a> explains, but a 60-word sentence in a piece that must shrink is prime cutting territory: it usually contains a subordinate clause the reader can live without.</p>
+
+      <h2>What never to cut</h2>
+      <p>Protect the load-bearing parts: evidence, examples that prove something no other example proves, definitions the reader needs, and any wording a limit-setter explicitly requires. In academic work, do not cut citations or the sentences that engage with counter-arguments — those are what markers reward, as discussed in <a href="#/article/how-many-words-should-an-essay-be">how many words should an essay be</a>. If cutting reaches the point where meaning starts to bend, stop and reconsider the structure instead.</p>
+
+      <h2>A realistic expectation</h2>
+      <p>Most drafts can lose 15–25 percent and read better for it. If you need more than that, you do not have an editing problem, you have a scope problem: the piece is trying to cover too much, and the honest fix is to split it or drop a topic entirely. Cut bravely, re-check the count, and stop the moment the limit is met with the meaning intact.</p>
+      <p><em>More from the library: <a href="#/article/email-and-cover-letter-length">how long should an email or cover letter be</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: READABILITY ================= -->
+  <section class="page" id="page-article-readability-and-reading-level-explained">
+    <article class="article">
+      <h1>What Is Readability? Reading Levels and Grade Scores Explained</h1>
+      <p class="lede">Writing tools love to grade your text: "Flesch Reading Ease 62", "Grade level 8.4". But what do those numbers actually measure, where did they come from, and how seriously should you take them?</p>
+
+      <h2>What readability formulas measure</h2>
+      <p>Readability is an estimate of how easy a text is to read, and the classic formulas estimate it from just two ingredients: <strong>sentence length</strong> and <strong>word length</strong>. Longer sentences demand more working memory; longer words — counted in syllables — tend to be rarer and more technical. That is the whole recipe. The formulas know nothing about whether your argument makes sense, whether your examples help, or whether the topic is inherently hard. They measure surface effort, which turns out to correlate surprisingly well with how readers experience a text — most of the time.</p>
+
+      <h2>The Flesch Reading Ease score</h2>
+      <p>Developed in the 1940s, the Flesch Reading Ease score runs from 0 to 100, with higher meaning easier. The standard interpretation bands are roughly: <strong>90–100</strong>, very easy, understandable by an average 11-year-old; <strong>70–80</strong>, fairly easy, conversational; <strong>60–70</strong>, plain English, the zone most general-audience writing should aim for; <strong>50–60</strong>, fairly difficult, typical of quality newspapers and academic prose; <strong>below 30</strong>, very difficult, the territory of legal and scientific writing. A score in the 60s does not mean a text is good — it means an average reader can get through it without strain.</p>
+
+      <h2>Grade levels: Flesch-Kincaid and friends</h2>
+      <p>The Flesch-Kincaid Grade Level converts the same ingredients into a US school grade: a score of 8.0 means a typical eighth-grader (around 13–14 years old) should understand the text. Other formulas — Gunning Fog, SMOG, Coleman-Liau — vary the recipe slightly; SMOG counts only longer words, Coleman-Liau uses characters instead of syllables, which makes it popular in software. They usually agree within a grade or two. Governments and large organisations often set targets in these terms — much public-facing writing is asked to sit around grade 8 or below, because that is where the widest audience reads comfortably.</p>
+
+      <h2>Why the scores mislead</h2>
+      <p>Three limitations matter. First, the formulas cannot detect nonsense: a paragraph of short, simple, meaningless sentences scores beautifully. Second, they penalise necessary vocabulary — a medical leaflet cannot replace "hypertension" with a shorter word without losing precision, and its score will look "too hard" even when written as clearly as the subject allows. Third, short choppy text games the system: chopping every sentence to five words raises your score while making the text harder to follow, because readers rely on sentence rhythm and connection. As our article on <a href="#/article/sentence-length-why-it-matters">sentence length</a> explains, variety — not brevity alone — is what reads well.</p>
+
+      <h2>Using readability sensibly</h2>
+      <p>Treat the score as a smoke alarm, not a judge. If a piece meant for the general public scores at grade 14, something deserves a second look: probably a few very long sentences or clusters of jargon. Paste your draft into the <a href="#/home">word counter</a> and check the average sentence length — above roughly 25 words is a useful warning sign — then apply <a href="#/article/plain-english-writing-tips">plain English techniques</a>: shorter sentences where ideas are complex, everyday words where precision allows, and explanations for the technical terms you must keep. Re-check the score, and stop when the text is clear to a real reader, not when a formula is flattered.</p>
+
+      <h2>The bottom line</h2>
+      <p>Readability scores estimate surface effort from sentence and word length. They are good at catching dense, tangled drafts and useless at judging quality. Aim general writing at the plain-English zone, respect the exceptions your subject demands, and always let a human read-through have the final word. For background on the counts behind the scores, see <a href="#/guide">how to count words accurately</a>.</p>
+      <p><em>More from the library: <a href="#/article/plain-english-writing-tips">plain English writing tips for clarity</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: RESUME LENGTH ================= -->
+  <section class="page" id="page-article-how-many-words-should-a-resume-be">
+    <article class="article">
+      <h1>How Many Words Should a Resume or CV Be?</h1>
+      <p class="lede">Recruiters think in pages, but pages are made of words — and the word count is where the real decisions hide. Here is how many words a resume usually holds, when a second page is justified, and how to say more in less space.</p>
+
+      <h2>The one-page benchmark: roughly 400–500 words</h2>
+      <p>A well-designed one-page resume in a readable font holds about <strong>400 to 500 words</strong>. That is less than it sounds — this article passes that mark a few paragraphs from now — and it forces the discipline that makes resumes work: only achievements and facts relevant to the job survive. Early-career candidates, recent graduates and anyone changing fields should treat one page as the default. If your draft is 700 words on one page, the problem is rarely the page; it is font sizes shrinking and margins vanishing to squeeze everything in, which makes the document harder to scan than a calm two pages would be.</p>
+
+      <h2>When two pages are fine</h2>
+      <p>Two pages — roughly 800 to 1,000 words — are standard and expected for experienced professionals, senior technical staff, academics and anyone whose work history genuinely spans multiple substantial roles. The rule of thumb is about one page per ten years of relevant experience, up to two pages for most industries. In academia and medicine, the CV is a different document entirely: it lists everything — publications, grants, teaching — and can run to many pages without apology. Know which document the employer expects: a US "CV" for a research post is the long form, while a UK "CV" is usually the two-page document Americans call a resume.</p>
+
+      <h2>What the words should be doing</h2>
+      <p>Resume words earn their place by carrying evidence. The strongest bullets follow a pattern: action verb, what you did, measurable result. "Reduced invoice processing time by 30% by automating the approval workflow" is nineteen words that prove a skill, a method and an outcome. Compare a job-duties list — "responsible for various administrative tasks as required" — which spends words to say nothing. Hiring managers skim for about a few seconds on the first pass; the keyword density view in the <a href="#/home">word counter</a> is a surprisingly useful check here, because the words you repeat most should be the skills the advertisement asks for, not filler like "various" and "responsible".</p>
+
+      <h2>Cutting a resume down to size</h2>
+      <p>If you are over your page target, cut in this order. First, old and irrelevant roles shrink to a single line each — job title, employer, dates. Second, delete the personal statement if it repeats the cover letter; the space is worth more as achievements. Third, compress bullets by removing soft claims ("hard-working team player") and keeping only evidenced ones. Fourth, trim education detail as experience grows: a degree from fifteen years ago needs one line, not a module list. The general editing techniques in <a href="#/article/how-to-cut-words">how to cut words</a> apply here with extra force, because every line you free up can hold another result.</p>
+
+      <h2>Do not forget the cover letter</h2>
+      <p>The resume does not travel alone. A cover letter of 250–400 words — three or four short paragraphs — is the expected companion, and our guide to <a href="#/article/email-and-cover-letter-length">how long an email or cover letter should be</a> covers its structure. Together, the pair should total somewhere around 700–900 words of tightly edited, evidence-first writing.</p>
+
+      <h2>The bottom line</h2>
+      <p>One page and about 400–500 words for most candidates; two pages and up to about 1,000 words when experience justifies it; longer only for academic CVs. Count the words, spend them on results, and let relevance — not chronology — decide what survives. Our <a href="#/tips">word count tips</a> page places resumes alongside essays and speeches if you want the comparison at a glance.</p>
+      <p><em>More from the library: <a href="#/article/email-and-cover-letter-length">how long should an email or cover letter be</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: SPEECH WORD COUNTS ================= -->
+  <section class="page" id="page-article-word-counts-for-speeches">
+    <article class="article">
+      <h1>Word Counts for Speeches and Presentations</h1>
+      <p class="lede">Speeches are commissioned in minutes and written in words, and the conversion between the two is where most talks go wrong. This guide gives you the exchange rate, a table for common speaking slots, and the adjustments that real rooms demand.</p>
+
+      <h2>The exchange rate: about 130 words per minute</h2>
+      <p>A comfortable presenting pace is roughly <strong>130 words per minute</strong>. That is the figure this site uses for its speaking-time estimate, and it sits in the middle of the realistic range: nervous or formal speakers run at 110–120, practiced presenters at 140–150, and only auctioneers and over-caffeinated keynote speakers sustain more. The arithmetic is then simple: minutes × 130 ≈ words. Our article on <a href="#/article/reading-time-and-speaking-time-explained">reading time and speaking time</a> explains why spoken delivery is so much slower than silent reading of the same text.</p>
+
+      <h2>Words for common speaking slots</h2>
+      <table>
+        <tr><th>Speaking time</th><th>Words at 130 wpm</th><th>Typical occasion</th></tr>
+        <tr><td>1 minute</td><td>~130 words</td><td>Introductions, elevator pitches, award acceptances</td></tr>
+        <tr><td>3 minutes</td><td>~390 words</td><td>Short toasts, project updates, competition speeches</td></tr>
+        <tr><td>5 minutes</td><td>~650 words</td><td>Wedding speeches, lightning talks, lesson segments</td></tr>
+        <tr><td>10 minutes</td><td>~1,300 words</td><td>Conference talks, sermons, best-man speeches at the long end</td></tr>
+        <tr><td>20 minutes</td><td>~2,600 words</td><td>Standard presentations and lectures</td></tr>
+        <tr><td>45 minutes</td><td>~5,800 words</td><td>Full lectures and keynote addresses</td></tr>
+      </table>
+      <p>Draft your script, paste it into the <a href="#/home">word counter</a>, and compare the speaking-time readout with your slot before you rehearse. It is far easier to fix a length problem at the desk than on the stage.</p>
+
+      <h2>Adjust for the occasion</h2>
+      <p>The table assumes steady delivery, and real speeches are not steady. Ceremonial speeches — weddings, funerals, commemorations — are delivered slowly, with pauses that are part of the meaning; plan closer to 110–120 words per minute, which makes a five-minute toast about 550–600 words rather than 650. Comedy needs room for laughter: a funny five minutes might contain only 500 words of script. Presentations with slides, demos or video clips need less text than the slot suggests, because the visuals consume minutes the script does not. Question-and-answer time, obviously, should be subtracted from the slot before you calculate anything.</p>
+
+      <h2>Write for the ear, not the eye</h2>
+      <p>Spoken text obeys different rules from written text. Sentences must be short enough to say in one breath and simple enough to understand on a single hearing — the listener cannot re-read. That usually means average sentences of 12–18 words, simpler constructions, and deliberate repetition of key points, because the audience cannot glance back. The principles in our <a href="#/article/plain-english-writing-tips">plain English guide</a> apply almost unchanged, and keeping an eye on your longest sentences with the counter helps catch the breathless 50-word constructions that read fine and speak terribly.</p>
+
+      <h2>Rehearse once, with a timer</h2>
+      <p>No formula knows your pace, your pauses or your audience. Read the final script aloud once, at performance speed, phone timer running. If it overruns, cut text rather than speeding up — rushed delivery is the most noticeable form of an over-long speech, and the trimming method in <a href="#/article/how-to-cut-words">how to cut words</a> will get a script down without gutting it. If it under-runs slightly, relax: almost every speaker speeds up a little on the day, and finishing a minute early is a gift to everyone in the room. Finishing early also leaves room for the applause, laughter and pauses you did not script — the moments audiences actually remember.</p>
+
+      <h2>The bottom line</h2>
+      <p>Multiply your minutes by 130, slow down for ceremony and comedy, write short sentences meant to be heard once, and verify with one timed rehearsal. Do that and the length of your speech will never be the thing people remember about it.</p>
+      <p><em>More from the library: <a href="#/article/reading-time-and-speaking-time-explained">reading time and speaking time explained</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: COUNT IN WORD/DOCS/PDF ================= -->
+  <section class="page" id="page-article-how-to-count-words-in-word-docs-pdf">
+    <article class="article">
+      <h1>How to Count Words in Word, Google Docs and PDFs</h1>
+      <p class="lede">Every writing tool hides its word count in a slightly different place, and PDFs hide theirs entirely. Here is where the number lives in the three formats people ask about most — and what to do when the count you get is not the count you need.</p>
+
+      <h2>Microsoft Word</h2>
+      <p>Word counts continuously: the running total sits in the <strong>status bar</strong> at the bottom left of the window as you type. Click that number (or go to Review → Word Count) to open the full statistics box, which adds characters with and without spaces, paragraphs and lines, plus a checkbox that decides whether text in footnotes and endnotes is included — a setting that matters for academic submissions, since two students with identical essays can get different counts from that one box. To count only part of a document, select the text first; the status bar then shows the selection's count alongside the document total, in the form "450 / 2,300".</p>
+
+      <h2>Google Docs</h2>
+      <p>In Google Docs, open <strong>Tools → Word count</strong> (or press Ctrl+Shift+C on Windows, Cmd+Shift+C on a Mac) to see words, characters, characters excluding spaces and pages. Tick "Display word count while writing" in that dialog and a small live counter stays in the bottom-left corner — worth doing for any assignment with a limit. As in Word, selecting text first shows the count for the selection. One difference to know: Docs and Word occasionally disagree by a handful of words on the same file, usually over hyphenated words, numbers and text in tables. Our guide on <a href="#/guide">how to count words accurately</a> explains why those small disagreements happen.</p>
+
+      <h2>PDFs: the awkward format</h2>
+      <p>PDFs have no built-in word count in most readers, because a PDF stores positioned text, not a flowing document. You have three practical options:</p>
+      <ul>
+        <li><strong>Copy and paste.</strong> Select all (Ctrl+A), copy, and paste into the <a href="#/home">word counter</a>. Fast and accurate for ordinary text-based PDFs — but check the result, because multi-column layouts can interleave lines and headers, footers and page numbers get pasted in too.</li>
+        <li><strong>Go back to the source.</strong> If you created the PDF from Word or Docs, count in the source file instead. It is the same text, with a trustworthy counter attached.</li>
+        <li><strong>Convert the file.</strong> Word and several online tools can open or convert a PDF into an editable document, after which counting is trivial. For scanned PDFs — which are pictures of pages, not text — you need OCR (optical character recognition) first; until the text is recognised, no counter anywhere can see it.</li>
+      </ul>
+
+      <h2>What the counts leave out</h2>
+      <p>Whichever tool you use, know its blind spots. Word processors may or may not count text boxes, headers, footers, footnotes and endnotes depending on settings and version. Tables usually count. Captions usually count. Text inside embedded images never counts, because it is not text. If a limit matters — a journal submission, a grant application, an exam — find out which elements the receiving institution counts and configure your tool the same way, or count conservatively by including everything and keeping a margin.</p>
+
+      <h2>When tools disagree, pick one and stay with it</h2>
+      <p>Small differences between counters are normal and unavoidable; they come from the edge cases described in our <a href="#/guide">counting guide</a> — hyphens, symbols, URLs, abbreviations. The mistake is switching tools mid-project and chasing a moving number. Choose the counter your institution uses if you know it; otherwise choose one, use it from first draft to submission, and keep a small buffer below any hard maximum. Consistency beats theoretical perfection every time.</p>
+
+      <h2>The bottom line</h2>
+      <p>Word shows the count in its status bar, Google Docs hides it under Tools → Word count, and PDFs need their text copied into a counter like this one. Check the settings for footnotes and text boxes, and you will never be surprised by a count again.</p>
+      <p><em>More from the library: <a href="#/article/how-many-words-should-an-essay-be">how many words should an essay be</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: SENTENCE LENGTH ================= -->
+  <section class="page" id="page-article-sentence-length-why-it-matters">
+    <article class="article">
+      <h1>Sentence Length: Why It Matters and How to Vary It</h1>
+      <p class="lede">Readers rarely notice sentence length directly, but they feel it — as rhythm, as clarity, as the difference between prose that carries them and prose that tires them. Here is what the averages mean and how to fix the two classic problems: run-ons and chop.</p>
+
+      <h2>The average, and what it hides</h2>
+      <p>Most well-edited English prose averages somewhere between <strong>15 and 20 words per sentence</strong>. Journalism sits at the lower end, academic writing at the higher end, and fiction swings widest of all. The <a href="#/home">word counter</a> shows your average sentence length in its detailed statistics. But the average is only a summary: a text alternating 40-word sentences with 3-word fragments can average a healthy 18 while reading like a car lurching between gears. What readers actually respond to is <strong>variety within control</strong> — mostly medium sentences, with short ones for emphasis and long ones where an idea genuinely unfolds.</p>
+
+      <h2>Why long sentences tire readers</h2>
+      <p>A sentence asks the reader to hold its opening in memory until its structure resolves. At 35–40 words, that load gets heavy, especially when clauses nest inside clauses and the main verb arrives late. Legal and academic writing often works this way, and readers of those genres are trained for it — but even they slow down. Long sentences also hide errors: a subject and verb separated by twenty words drift out of agreement, and pronouns lose track of their owners. If your longest-sentence readout in the counter regularly exceeds 45 words, some of those sentences are probably doing two jobs and would read better as two sentences.</p>
+
+      <h2>Why short sentences tire readers too</h2>
+      <p>The opposite failure is chop: every sentence five to eight words long, every idea isolated. Short sentences are forceful one at a time. In a row, they become monotonous and oddly exhausting, because the reader must keep restarting and must infer all the connections — cause, contrast, sequence — that longer sentences state outright. Choppy drafts often come from over-applying advice to "keep it simple", or from editing that cut conjunctions along with words. The fix is combination: join related short sentences with "and", "but", "so" or a subordinate clause, and save the true fragments for the moments that deserve a punch.</p>
+
+      <h2>A practical editing method</h2>
+      <p>Read your draft aloud. Your breath is an honest editor: anywhere you run out of air mid-sentence, the sentence is probably too long; anywhere the reading sounds like a list of headlines, sentences are probably too short. Then check the numbers — the counter lists your longest and shortest sentences explicitly, which makes both problems easy to find in a long document. Aim to fix the extremes rather than every sentence: split the three longest, combine the choppy clusters, and the rhythm of the whole piece improves out of proportion to the edits.</p>
+
+      <h2>Sentence length and readability scores</h2>
+      <p>Average sentence length is one of only two ingredients in the classic readability formulas, which is why it punches above its weight in writing advice. Shortening sentences is the fastest way to raise a Flesch score — and, up to a point, to genuinely help readers. Our article on <a href="#/article/readability-and-reading-level-explained">readability and reading levels</a> explains where that point lies and why gaming the formula with fragments backfires. Combined with plain word choices, sensible sentence lengths are most of what <a href="#/article/plain-english-writing-tips">plain English</a> asks of you.</p>
+
+      <h2>The bottom line</h2>
+      <p>Write mostly in the 12–22 word range, vary deliberately, split sentences your breath cannot finish, and join sentences that stutter. Length is not a rule to obey but a rhythm to conduct — and your readers will feel the difference without ever knowing why.</p>
+      <p><em>More from the library: <a href="#/article/readability-and-reading-level-explained">what is readability</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: PRODUCT DESCRIPTIONS ================= -->
+  <section class="page" id="page-article-product-description-word-count">
+    <article class="article">
+      <h1>How Many Words in a Good Product Description?</h1>
+      <p class="lede">A product description has one job — turn a browser into a buyer — and both extremes fail at it. Two lines leave questions unanswered; two thousand words bury the answer. Here is how length should follow the product, not a formula.</p>
+
+      <h2>A working range: 150–300 words for most products</h2>
+      <p>For a typical online product, <strong>150 to 300 words</strong> of description is a sound default, and it matches the guideline in our <a href="#/tips">word count tips</a> reference. That is enough room for the three things a buyer needs: what the product does for them (benefits), what it is made of and how it works (features and specifications), and the practical details that decide purchases — size, compatibility, care, delivery, returns. Below 100 words, at least one of those usually goes missing, and missing information is a leading cause of abandoned baskets and avoidable returns.</p>
+
+      <h2>Simple products need fewer words</h2>
+      <p>Nobody needs 300 words about a phone case, a notebook or a pair of socks. For familiar, low-price, low-risk items, <strong>50 to 120 words</strong> plus good specifications and photographs will outperform a long description, because the buyer's only real questions are fit, material and colour. Spend the effort on accurate specs and a clear size guide instead of prose. Short does not mean thin, though: the description still has to be original. Copying the manufacturer's text verbatim is a real problem — hundreds of shops publish the identical paragraph, search engines have no reason to favour yours, and the wording rarely matches your customers' questions anyway.</p>
+
+      <h2>Complex and expensive products need more</h2>
+      <p>As price, complexity and risk rise, so should the word count. Appliances, tools, software, courses and anything bought sight-unseen for serious money can justify <strong>400 to 800 words or more</strong>, structured in sections: overview, key benefits, how it works, specifications, what is in the box, warranty and support. At this level the description is doing the work of a salesperson, answering objections before they form. Break long descriptions with subheadings and bullet points so buyers can skim to the section they care about — the total length matters less than whether the needed fact is findable in seconds.</p>
+
+      <h2>Structure beats length</h2>
+      <p>Whatever the product, order the words by what buyers ask first. Lead with the benefit in the opening sentence or two — not "made from premium materials" but what those materials do for the owner. Follow with the features that deliver the benefit, then specifications in a scannable list, then practicalities. Write the draft, paste it into the <a href="#/home">word counter</a>, and check two things: the total count against the ranges above, and the keyword density panel, which should show the product's real name and attributes dominating — not filler words like "quality" and "perfect" repeated in place of facts.</p>
+
+      <h2>Marketplaces have their own rules</h2>
+      <p>Selling on a marketplace adds constraints: some platforms cap description length by characters, others strip formatting, and most reward descriptions that answer the questions buyers message sellers about. Read your last twenty customer questions; anything asked twice belongs in the description. Keep sentences short and concrete in the style of our <a href="#/article/plain-english-writing-tips">plain English guide</a> — marketplace buyers skim on phones, often in a second language, and clarity converts better than flourish.</p>
+
+      <h2>The bottom line</h2>
+      <p>Match length to the decision: around 50–120 words for simple items, 150–300 for typical products, 400+ when the purchase is complex or expensive. Write original text, structure it for skimming, and let unanswered customer questions — not a word-count superstition — tell you when it is long enough.</p>
+      <p><em>More from the library: <a href="#/article/ideal-blog-post-length-for-seo">ideal blog post length for SEO</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: COLLEGE APPLICATION ESSAYS ================= -->
+  <section class="page" id="page-article-college-application-essay-word-count">
+    <article class="article">
+      <h1>College Application Essay Word Counts Explained</h1>
+      <p class="lede">Application essays come with some of the strictest word limits in all of writing — and unlike school essays, there is no ten-percent tolerance. Here are the limits behind the major essays, and how to plan a draft that fits them.</p>
+
+      <h2>The main personal statement: 250–650 words</h2>
+      <p>The best-known application essay, the Common Application personal statement used by hundreds of US colleges, carries a hard limit of <strong>650 words</strong> and a recommended minimum of 250. The application software enforces the maximum — text beyond it simply does not fit. Strong statements usually land between 550 and 650 words, not because longer is better, but because a complete story with reflection rarely fits in less. Our general guidance on <a href="#/article/how-many-words-should-an-essay-be">how long an essay should be</a> covers the planning method; here the planning matters more, because the ceiling cannot move.</p>
+
+      <h2>Other systems, other numbers</h2>
+      <p>Different application systems set different rules, and applicants often meet several in one season. The University of California's Personal Insight Questions take a different approach: applicants answer four of eight prompts, each capped at <strong>350 words</strong> — eight short, focused responses rather than one long essay, which rewards directness over storytelling. Coalition Application essays generally suggest 500–650 words. In the UK, the UCAS personal statement is limited by characters rather than words — historically 4,000 characters including spaces, roughly 600 words — and the format has been moving toward structured questions with their own per-question character limits. Always confirm the current cycle's rules on the official application site; limits and formats change.</p>
+
+      <h2>Supplemental essays: short and specific</h2>
+      <p>Beyond the main statement, many colleges ask their own questions, and these supplements are where word counts shrink. "Why us?" essays typically run <strong>150–300 words</strong>; activity and community short answers may allow only 50–150 words each; some are a single sentence. Short limits are not easier — at 150 words every sentence must carry weight, and generic praise of the college wastes the scarcest resource you have. Name specific courses, programmes, societies or features, and connect each one to something in your own history. Draft each supplement separately and check it in the <a href="#/home">word counter</a> before pasting it into the application, because application text boxes are unforgiving places to discover you are 80 words over.</p>
+
+      <h2>Draft long, then cut to fit</h2>
+      <p>The reliable method for a hard limit is to draft freely at 120–150 percent of the target, then edit down. First drafts discover what you actually think; the limit is an editing problem, not a drafting problem. Cut in the order described in our guide on <a href="#/article/how-to-cut-words">how to cut words</a>: repeated ideas first, then throat-clearing openings (application essays famously begin with a paragraph that can be deleted whole), then any sentence that summarises what the story already showed. End a few words under the maximum rather than exactly on it, so a counting difference between your tool and the application portal — see <a href="#/guide">why counters disagree</a> — can never push you over.</p>
+
+      <h2>What the limit is really testing</h2>
+      <p>Colleges are not measuring obedience. The limit tests whether you can select: choose the story that matters, the details that prove it, and the reflection that makes it yours, and leave everything else out. An essay that fills 650 words with a complete, specific, reflective story will always beat one that treats the limit as space to fill. Respect the count, but write the essay. And start earlier than feels necessary: the applicants who struggle with these limits are rarely the ones who cannot write, but the ones whose first draft was written the night before the deadline, with no time left to cut it down to size.</p>
+      <p><em>More from the library: <a href="#/article/how-many-words-should-an-essay-be">how many words should an essay be</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: NANOWRIMO ================= -->
+  <section class="page" id="page-article-nanowrimo-daily-writing-goals">
+    <article class="article">
+      <h1>NaNoWriMo and Daily Writing Goals</h1>
+      <p class="lede">Fifty thousand words in thirty days. National Novel Writing Month turns novel-writing into arithmetic — and the arithmetic, plus a few hard-won lessons about pacing, is useful for any big writing project, in any month of the year.</p>
+
+      <h2>The maths of 50,000 words</h2>
+      <p>The challenge is simple: write 50,000 words of a novel during November. Divided evenly, that is <strong>1,667 words per day</strong> — a number every participant learns by heart. At a typical drafting speed of 500 words per focused hour, 1,667 words is roughly three to three and a half hours of writing daily; faster drafters do it in two. For perspective, 50,000 words sits at the short end of a publishable novel — our guide to <a href="#/article/how-many-words-in-a-novel">how many words are in a novel</a> puts most adult fiction at 70,000–100,000 — so a successful November produces a complete short novel or the solid first two-thirds of a longer one. Either is a genuine book draft, which is the point.</p>
+
+      <h2>Why a daily target works</h2>
+      <p>A monthly goal is abstract; a daily goal is a decision you can make before breakfast. The daily number also makes progress visible and slippage measurable: miss a day and you know exactly what you owe — 3,334 words to catch up, or an extra 120 words a day for the rest of the month. That visibility is why the goal tracker on the <a href="#/home">word counter</a> exists: set the target, watch the bar move, and let the streak do the motivating. Writers who keep a daily target outside November — 500 words is the classic sustainable figure — report the same effect at lower intensity.</p>
+
+      <h2>Pacing strategies that actually finish</h2>
+      <p>Even pacing (1,667 every day) suits steady temperaments, but it is not the only shape that works. <strong>Front-loading</strong> — writing 2,500 a day in the first week — banks words against the inevitable bad days later, and many finishers swear by it. <strong>Weekend loading</strong> fits working writers: 800 words on weekdays, 3,500 on Saturday and Sunday reaches the same total. What does not work is the heroic plan: "I'll catch up in the last week" means 7,000 words a day, every day, while tired — the single most common shape of an abandoned November. Whatever shape you choose, write it down as daily numbers, not intentions. It also helps to decide in advance what a missed day means — an extra session at the weekend, a slightly higher target for three days — because a plan for falling behind is what separates a stumble from a collapse.</p>
+
+      <h2>Surviving the middle</h2>
+      <p>Almost every participant hits the same wall around days 10–18: the opening excitement is spent, the ending is far away, and the draft's flaws are glaring. The challenge's official philosophy — quantity over quality, editing forbidden until December — exists precisely for this stretch. The techniques in our guide on <a href="#/article/how-to-write-faster">how to write faster</a> are the practical version: outline loosely, draft ugly, leave [BRACKETS] where you stall, and never delete. A bad page can be fixed in revision. A blank one cannot.</p>
+
+      <h2>After November: goals the rest of the year</h2>
+      <p>The deeper lesson outlives the event. Any large piece of writing — a thesis, a non-fiction book, a year's worth of articles — becomes manageable when it is converted into a daily word target and tracked honestly. Pick a number small enough to hit on a bad day, protect a regular time slot, and review weekly rather than daily so one missed session does not feel like failure. Fifty thousand words is just 1,667 small decisions; so is every book ever finished.</p>
+      <p><em>More from the library: <a href="#/article/how-many-words-in-a-novel">how many words are in a novel</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: TRANSLATORS ================= -->
+  <section class="page" id="page-article-how-translators-charge-by-the-word">
+    <article class="article">
+      <h1>How Translators Charge by the Word</h1>
+      <p class="lede">Translation is one of the few writing professions priced by the word — which makes word counts a matter of money, and makes the details of how those words are counted worth understanding before you buy or sell a translation.</p>
+
+      <h2>The basic model: price per source word</h2>
+      <p>The industry standard is a rate per word of the <strong>source text</strong> — the document you hand over. Counting the source means the price is known before work begins: a 10,000-word manual at a given rate costs the same however the translation turns out. Rates vary enormously with the language pair, subject matter and market. As a rough orientation, common European language pairs from large agencies often fall somewhere around the equivalent of $0.08–$0.20 per word, while scarce pairs, specialist legal or medical work, and sworn translations cost considerably more, and freelance rates differ from agency rates. Treat any specific figure as a starting point for quotes, not a tariff — but the per-word structure itself is nearly universal.</p>
+
+      <h2>Why the target text is a different length</h2>
+      <p>Translations expand and contract. English rendered into German or French commonly grows by 15–25 percent, because those languages build longer words and need more of them; Spanish typically expands by a similar margin, while English into Chinese contracts dramatically in character terms. This is why professionals count the source: the target length is not fully predictable, and neither party should gamble on it. It also matters practically — a user interface, leaflet or subtitle file designed for the English text may not fit its own translation, a problem called text expansion that designers plan space for. If you are estimating a translation's size, run the source through the <a href="#/home">word counter</a> and ask your translator which length changes to expect in the target.</p>
+
+      <h2>What changes the rate</h2>
+      <p>Beyond the language pair, four things move the price. <strong>Specialisation:</strong> a translator who understands patent law or cardiology charges for that knowledge, not just for words. <strong>Deadline:</strong> rush work costs more, and very fast turnarounds may be split between translators, which can harm consistency. <strong>Format:</strong> clean editable text is cheapest; scanned PDFs, complex layouts and strings of software code add handling time. <strong>Repetition:</strong> translation software (CAT tools) recognises sentences repeated within or across your documents and discounts them — sometimes steeply — because the translator translates each unique sentence once. This is one reason large, repetitive projects cost less per word than the headline rate suggests.</p>
+
+      <h2>Minimum fees and other models</h2>
+      <p>Per-word pricing breaks down on tiny jobs: a 60-word certificate cannot sensibly be billed at a few cents, so most translators and agencies apply a <strong>minimum fee</strong> covering administration, correspondence and quality checks. Other models exist alongside the per-word standard. Proofreading and editing of existing translations are often charged per hour or at a lower per-word rate; transcreation — adapting marketing copy creatively — is usually hourly or per project; interpreting is priced by the half-day or day, never by the word. Machine translation with human post-editing is typically billed at a reduced per-word rate, with the discount reflecting how good the machine output is for that language pair.</p>
+
+      <h2>Counting fairly: agree the method first</h2>
+      <p>Most disputes in translation billing are counting disputes, and they are preventable. Before work starts, agree on three things: which tool's count governs (word processors differ slightly, for the reasons explained in <a href="#/guide">how to count words accurately</a>), whether numbers, headings and repeated headers count, and how repetitions will be discounted. A professional quote states all three. If you are the client, count the source document yourself — in Word, in Google Docs, or pasted into the counter here; our article on <a href="#/article/how-to-count-words-in-word-docs-pdf">how to count words in Word, Google Docs and PDFs</a> shows where each number lives — and compare it with the quote. When both sides count the same words the same way, the invoice holds no surprises.</p>
+
+      <h2>The bottom line</h2>
+      <p>Translators charge per source word because it makes the price knowable in advance. Language pair, specialisation, deadline and repetition set the rate; a minimum fee covers small jobs; and a clear counting agreement keeps the whole arrangement fair. The humble word count, it turns out, is a unit of currency.</p>
+      <p><em>More from the library: <a href="#/article/how-to-count-words-in-word-docs-pdf">how to count words in Word, Google Docs and PDFs</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: PLAIN ENGLISH ================= -->
+  <section class="page" id="page-article-plain-english-writing-tips">
+    <article class="article">
+      <h1>Plain English: Writing Tips for Clarity</h1>
+      <p class="lede">Plain English is not dumbed-down English. It is writing designed so that the intended reader understands it the first time, as quickly as possible — a discipline that governments, banks and hospitals now treat as a requirement, and that any writer can learn.</p>
+
+      <h2>Write for a reader, not an examiner</h2>
+      <p>Every plain-English technique follows from one decision: picture a specific reader and respect their time. That reader is busy, possibly tired, possibly reading in a second language, and under no obligation to decode you. Before writing, answer two questions: what does this reader need to know, and what do they need to do? Everything in the document should serve one of those. Material that serves neither — background included "for completeness", caveats protecting the writer rather than informing the reader — is where documents bloat. Cut it, using the method in <a href="#/article/how-to-cut-words">how to cut words</a>, and the document usually shrinks by a quarter while saying the same things.</p>
+
+      <h2>Keep sentences short — and varied</h2>
+      <p>The standard plain-English advice is an average sentence length of <strong>15–20 words</strong>, with few sentences over 25. Short sentences are not automatically clear, and a page of five-word fragments is its own kind of hard work, as our article on <a href="#/article/sentence-length-why-it-matters">sentence length</a> explains. The real rule is one main idea per sentence: when a sentence contains two ideas joined by "and" plus a subordinate clause, it is a candidate for splitting. Check your average in the <a href="#/home">word counter</a> after drafting; if it is above the low twenties, your longest sentences are the first place to look.</p>
+
+      <h2>Choose everyday words</h2>
+      <p>Prefer the word your reader uses in conversation: "use" not "utilise", "buy" not "purchase", "before" not "prior to", "about" not "concerning", "if" not "in the event that". Long official phrases are usually habit, not precision — "at this moment in time" means "now". Two honest exceptions: keep technical terms where they carry exact meaning your reader needs (a medicine's real name, a legal term of art), and define them once, briefly, at first use. Jargon explained is education; jargon unexplained is a locked door.</p>
+
+      <h2>Prefer the active voice, and name the actor</h2>
+      <p>"Your application will be processed" leaves the reader wondering by whom, and when. "We will process your application within ten days" answers both. The active voice is usually shorter, always clearer about responsibility, and it forces the writer to know who does what — which is sometimes why organisations avoid it. Use the passive deliberately where the actor genuinely does not matter ("the bridge was built in 1903"), not as a default fog.</p>
+
+      <h2>Structure for skimming</h2>
+      <p>Readers of documents skim first and read second, so give them handholds: headings that state content rather than tease it, lists for anything sequential or enumerable, short paragraphs of two to four sentences, and the most important information first — in the document, in each section, and in each paragraph. A reader who skims your headings alone should still leave knowing the essentials. This is also where readability scores can sanity-check you: the background in <a href="#/article/readability-and-reading-level-explained">readability and reading levels explained</a> shows what the scores reward and where their judgement ends.</p>
+
+      <h2>Test on a human</h2>
+      <p>No formula substitutes for a reader. Give the draft to someone resembling the audience and ask them to tell you what it says and what they would do next. Where they hesitate, the document — not the reader — has failed. Plain English is ultimately that simple: writing that survives contact with its reader, first time.</p>
+      <p><em>More from the library: <a href="#/article/readability-and-reading-level-explained">what is readability</a> and <a href="#/articles">all articles</a>.</em></p>
+    </article>
+  </section>
+
+  <!-- ================= ARTICLE: EMAIL & COVER LETTER ================= -->
+  <section class="page" id="page-article-email-and-cover-letter-length">
+    <article class="article">
+      <h1>How Long Should an Email or Cover Letter Be?</h1>
+      <p class="lede">Two of the most-written documents in working life, and two of the most over-written. Both have well-established lengths that busy readers silently enforce — here they are, with the structure that makes each word count.</p>
+
+      <h2>The cover letter: 250–400 words, one page</h2>
+      <p>A cover letter should run <strong>250 to 400 words</strong> across three or four short paragraphs, and it should never exceed one page. The structure that fills those words well is consistent across industries. Paragraph one: the role you are applying for and your single strongest claim to it — not your life story, and not "I am writing to apply for…", which the reader already knows. Paragraph two: evidence — two or three achievements matched to the job's stated requirements, with numbers wherever you have them. Paragraph three: why this organisation specifically, which proves the letter was written for them and not mail-merged. A closing line: thanks, availability, and a confident sign-off. Anything beyond this — a fifth paragraph, a retelling of the whole resume — dilutes the evidence rather than adding to it.</p>
+      <p>The letter works as a pair with the resume, whose own length rules (roughly 400–500 words for one page) are covered in <a href="#/article/how-many-words-should-a-resume-be">how many words should a resume be</a>. Together they should total under about 900 words of the most carefully edited writing you own.</p>
+
+      <h2>The everyday business email: shorter than you think</h2>
+      <p>For routine business email, the effective range is roughly <strong>50 to 150 words</strong>. Readers process email in a queue, often on a phone, and the emails that get answered promptly are the ones that can be understood — and acted on — in a single screen. State the purpose in the first sentence, not the third paragraph: "Could you approve the attached budget by Friday?" beats a page of context with the request hiding at the end. If the reader needs background, give it after the request, briefly, or attach it. One topic per email is the companion rule: a second topic in the same message reliably gets forgotten, and it makes the thread impossible to file or search later.</p>
+
+      <h2>Subject lines: the shortest writing that matters most</h2>
+      <p>The subject line is a word count of its own: around <strong>30–50 characters</strong> — roughly five to eight words — keeps it fully visible in mobile inboxes, where only the first few dozen characters show. Put the informative words first ("Budget approval needed by Friday", not "A quick request regarding the budget"), because truncation cuts from the end. Our <a href="#/tips">word count tips</a> page lists subject-line length alongside other web copy guidelines.</p>
+
+      <h2>When longer is justified</h2>
+      <p>Length rules bend for emails that are really documents: a detailed project update, a formal complaint, a proposal introduction, a sensitive message where tone needs room to be careful. These can run 300–500 words legitimately — but they earn their length through structure: a summary sentence at the top, headings or clear paragraphs for the parts, and the requested action stated explicitly at the end. If a long email has no structure, it is not thorough, it is just long. Draft it, paste it into the <a href="#/home">word counter</a>, and if the count surprises you, apply the trimming passes from <a href="#/article/how-to-cut-words">how to cut words</a> before sending.</p>
+
+      <h2>The bottom line</h2>
+      <p>Cover letters: 250–400 words, three or four paragraphs, evidence over biography. Business emails: 50–150 words, purpose first, one topic each. Subject lines: five to eight words, information first. Write to those lengths and your messages will be read in full — which is the entire point of sending them.</p>
+      <p><em>More from the library: <a href="#/article/how-many-words-should-a-resume-be">how many words should a resume or CV be</a> and <a href="#/articles">all articles</a>.</em></p>
     </article>
   </section>
 
@@ -681,6 +1255,7 @@
       <a href="#/home">Word Counter</a>
       <a href="#/guide">Guide</a>
       <a href="#/tips">Word Count Tips</a>
+      <a href="#/articles">Articles</a>
       <a href="#/faq">FAQ</a>
       <a href="#/about">About</a>
       <a href="#/contact">Contact</a>
@@ -700,11 +1275,12 @@
   "use strict";
 
   /* ---------------- Router ---------------- */
-  var PAGES = ["home","guide","tips","faq","about","contact","privacy","terms","disclaimer"];
+  var PAGES = ["home","guide","tips","articles","faq","about","contact","privacy","terms","disclaimer"];
   var TITLES = {
     home: "Word Counter — Count Words, Characters & Reading Time Online",
     guide: "How to Count Words Accurately — WordCounterHub",
     tips: "Word Counts for Essays, Articles and Social Posts — WordCounterHub",
+    articles: "Articles — WordCounterHub",
     faq: "FAQ — WordCounterHub",
     about: "About — WordCounterHub",
     contact: "Contact — WordCounterHub",
@@ -712,18 +1288,50 @@
     terms: "Terms of Use — WordCounterHub",
     disclaimer: "Disclaimer — WordCounterHub"
   };
+  var ARTICLE_TITLES = {
+    "how-many-words-should-an-essay-be": "How Many Words Should an Essay Be? — WordCounterHub",
+    "ideal-blog-post-length-for-seo": "Ideal Blog Post Length for SEO (Honest Guide, No Guarantees) — WordCounterHub",
+    "reading-time-and-speaking-time-explained": "Reading Time and Speaking Time Explained — WordCounterHub",
+    "how-many-words-in-a-novel": "How Many Words Are in a Novel? Word Counts by Genre — WordCounterHub",
+    "social-media-character-limits": "Social Media Character Limits Explained — WordCounterHub",
+    "how-to-write-faster": "How to Write Faster Without Losing Quality — WordCounterHub",
+    "how-to-cut-words": "How to Cut Words When You Are Over the Limit — WordCounterHub",
+    "readability-and-reading-level-explained": "What Is Readability? Reading Levels and Grade Scores Explained — WordCounterHub",
+    "how-many-words-should-a-resume-be": "How Many Words Should a Resume or CV Be? — WordCounterHub",
+    "word-counts-for-speeches": "Word Counts for Speeches and Presentations — WordCounterHub",
+    "how-to-count-words-in-word-docs-pdf": "How to Count Words in Word, Google Docs and PDFs — WordCounterHub",
+    "sentence-length-why-it-matters": "Sentence Length: Why It Matters and How to Vary It — WordCounterHub",
+    "product-description-word-count": "How Many Words in a Good Product Description? — WordCounterHub",
+    "college-application-essay-word-count": "College Application Essay Word Counts Explained — WordCounterHub",
+    "nanowrimo-daily-writing-goals": "NaNoWriMo and Daily Writing Goals — WordCounterHub",
+    "how-translators-charge-by-the-word": "How Translators Charge by the Word — WordCounterHub",
+    "plain-english-writing-tips": "Plain English: Writing Tips for Clarity — WordCounterHub",
+    "email-and-cover-letter-length": "How Long Should an Email or Cover Letter Be? — WordCounterHub"
+  };
   function route(){
     var h = (location.hash || "#/home").replace(/^#\/?/, "");
-    var page = PAGES.indexOf(h) >= 0 ? h : "home";
-    for (var i = 0; i < PAGES.length; i++){
-      var el = document.getElementById("page-" + PAGES[i]);
-      if (el) el.classList.toggle("on", PAGES[i] === page);
+    var page = null, articleSlug = null;
+    if (h.indexOf("article/") === 0){
+      var slug = h.slice("article/".length);
+      if (ARTICLE_TITLES[slug] && document.getElementById("page-article-" + slug)) articleSlug = slug;
+    }
+    if (!articleSlug) page = PAGES.indexOf(h) >= 0 ? h : "home";
+    var all = document.querySelectorAll(".page");
+    for (var i = 0; i < all.length; i++) all[i].classList.remove("on");
+    var activeNav = page;
+    if (articleSlug){
+      document.getElementById("page-article-" + articleSlug).classList.add("on");
+      document.title = ARTICLE_TITLES[articleSlug];
+      activeNav = "articles";
+    } else {
+      var el = document.getElementById("page-" + page);
+      if (el) el.classList.add("on");
+      document.title = TITLES[page];
     }
     var navs = document.querySelectorAll("[data-nav]");
     for (var j = 0; j < navs.length; j++){
-      navs[j].classList.toggle("active", navs[j].getAttribute("data-nav") === page);
+      navs[j].classList.toggle("active", navs[j].getAttribute("data-nav") === activeNav);
     }
-    document.title = TITLES[page];
     window.scrollTo(0, 0);
   }
   window.addEventListener("hashchange", route);
